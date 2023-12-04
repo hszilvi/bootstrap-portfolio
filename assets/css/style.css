@@ -61,3 +61,34 @@ body {
     max-height: 20em;
     /* max-width: 1440px; */
 }
+/* personal section
+ */
+.custom-title-right {
+    color: red;
+    /* width: 250px; */
+    /* min-width: 250px; */
+}
+/* work section */
+
+.custom-card {
+    max-height: 250px;
+}
+.custom-card:hover {
+    opacity: 0.7;
+}
+.custom-card-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.custom-card-img-overlay {
+    max-width: 10em;
+    max-height: 5em;
+    bottom: 0;
+}
+.custom-card-sm {
+    max-height: 120px;
+}
+.custom-card-sm:hover {
+    opacity: .7;
+}

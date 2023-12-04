@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <title>Bootstrap Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
 </head>
 <body>
     <!-- ====================== bootstrap navbar ============================= -->
@@ -33,6 +34,7 @@
                 <a class="nav-link text-white custom-nav-link" href="#contact">Contact Me</a>
                 </li>
                 <li class="nav-item">
+                  <!-- add link to resume link!!!!!!!!!!!!!!! -->
                 <a class="nav-link text-info custom-nav-link" href="#">Resume</a>
                 </li>
             </ul>
@@ -40,7 +42,7 @@
         </div>
     </nav>
     <!-- ================================ HERO with jumbotron section here  ============================= -->
-    <div class="pt-7 mb-4 position-relative custom-hero">
+    <div class="pt-7 mb-4 position-relative shadow-sm custom-hero">
       <!-- <div class="container custom-h1-container"> -->
         <div class="overflow-hidden custom-img-container">
           <img class="mw-100" src="./assets/images/boostrap-hero-img.jpg" alt="bootstrap-vscode">
@@ -54,10 +56,11 @@
         <!--  about me section  -->
         <div class="container mt-5">
             <div id="about" class="row">
-              <div class="col-2 text-right">
+              <div class="col-2 text-right custom-title-right">
                 <h2>About Me</h2>
               </div>
               <div class="col-10 border-start border-4 border-secondary-subtle mb-5">
+                <!-- need to change text!!!!!!!!!!!!!!!! -->
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur reprehenderit provident asperiores. Exercitationem repudiandae itaque, ex autem vero ab deserunt, illo, minima doloremque est pariatur quis. Ab optio quas cumque.
                 Quasi, commodi distinctio totam voluptas deserunt optio quam magni amet nostrum a sint minus voluptatem nulla dolores, eveniet facere delectus? Corrupti, reiciendis doloremque laborum mollitia recusandae nostrum quaerat quae eius!</p>
               </div>
@@ -68,67 +71,69 @@
             <!-- work all -->
             <div id="work" class="row">
                 <!-- work title -->
-              <div class="col-2 text-right">
+              <div class="col-2 text-right custom-title-right">
                 <h2 class="text-right">Work</h2>
               </div>
               <!-- work elements start here -->
               <div class="col-10 border-start border-4 border-secondary-subtle mb-5 h-100">
                 <div class="container">
                     <!-- big work Change to portfolio hsz github site, find a fancy picture -->
-                    <div class="row mb-3" style="max-height: 250px">
+                    <div class="row mb-3">
                       <div class="col">
-                        <div class="card" style="max-height: 250px">
-                            <img src="./assets/images/surf-illustrator.jpg" class="card-img" alt="..." style="height: 100%; width: 100%; object-fit: cover;">
-                            <div class="card-img-overlay">
-                              <h5 class="card-title">Surf Report</h5>
-                              <p class="card-text"><small>MERN Stock</small></p>
-                            </div>
+                        <a class="card position-relative shadow-sm" href="https://github.com/hszilvi/portfolio-hsz" target="_blank">
+                          <img src="./assets/images/portfolio-hsz-github.jpg" class="card-img custom-card-img" alt="portfolio github pageview">
+                          <div class="card-img-overlay text-white lh-sm position-absolute custom-card-img-overlay">
+                            <h5 class="card-title fw-bold"><mark>Portfolio</mark></h5>
+                            <p class="card-text"><small><mark>HTML, CSS, Github</mark></small></p>
                           </div>
+                        </a>
                       </div>
                     </div>
                     <!-- top works -->
-                    <div class="row mb-3" style="max-height: 120px">
+                    <div class="row mb-3">
                         <!-- top left -->
                       <div class="col-6">
-                        <div class="card" style="max-height: 120px;">
-                            <img src="./assets/images/ledwall-illustrator.jpg" class="card-img" alt="..." style="height: 100%; width: 100%; object-fit: cover;">
-                            <div class="card-img-overlay">
-                              <h5 class="card-title">LED Wall</h5>
-                              <p class="card-text"><small>node</small></p>
+                        <a class="card position-relative shadow-sm custom-card-sm" href="https://github.com/hszilvi/bootstrap-portfolio" target="_blank">
+                            <img src="./assets/images/bootstrap-portfolio-view.jpg" class="card-img custom-card-img" alt="bootsrap portfolio pageview">
+                            <div class="card-img-overlay text-white lh-sm position-absolute custom-card-img-overlay">
+                              <h5 class="card-title fw-bold"><mark>Bootstrap</mark></h5>
+                              <p class="card-text"><small><mark>HTML, CSS</mark></small></p>
                             </div>
-                          </div>
+                          </a>
                       </div>
                       <!-- right top -->
                       <div class="col-6">
-                        <div class="card" style="max-height: 120px;">
-                            <img src="./assets/images/calc-illustrator.jpg" class="card-img" alt="..." style="height: 100%; width: 100%; object-fit: cover;">
-                            <div class="card-img-overlay">
-                              <h5 class="card-title">Calculator</h5>
-                              <p class="card-text"><small>React/JS</small></p>
+                        <a class="card position-relative shadow-sm custom-card-sm" href="https://github.com/hszilvi/homeseo-code-refactor"  target="_blank">
+                            <img src="./assets/images/horiseon-pageview.jpg" class="card-img custom-card-img" alt="...">
+                            <div class="card-img-overlay text-white lh-sm position-absolute custom-card-img-overlay">
+                              <h5 class="card-title fw-bold"><mark>Horiseon</mark></h5>
+                              <p class="card-text"><small><mark>Github</mark></small></p>
                             </div>
-                          </div>
+                          </a>
                       </div>
                     </div>
                     <!-- bottom work -->
                     <div class="row">
                         <!-- bottom left -->
                       <div class="col-6">
-                        <div class="card" style="max-height: 120px;" >
-                            <img src="./assets/images/puzzle-illustrator.jpg" class="card-img" alt="..." style="height: 100%; width: 100%; object-fit: cover;">
-                            <div class="card-img-overlay text">
-                              <h5 class="card-title">Pastel Puzzle</h5>
-                              <p class="card-text"><small>MERN Stock</small></p>
+                        <div class="card position-relative shadow-sm custom-card-sm">
+                            <img src="./assets/images/puzzle-illustrator.jpg" class="card-img custom-card-img" alt="...">
+                            <div class="card-img-overlay text-white lh-sm position-absolute custom-card-img-overlay">
+                              <h5 class="card-title fw-bold"><mark>Portfolio</mark></h5>
+                              <p class="card-text"><small><mark>HTML, CSS, Github</mark></small></p>
                             </div>
                           </div>
                       </div>
                       <!-- bottom right -->
-                      <div class="col-6"><div class="card" style="max-height: 120px;">
-                        <img src="./assets/images/run-illustrator.jpg" class="card-img" alt="..." style="height: 100%; width: 100%; object-fit: cover;">
-                        <div class="card-img-overlay">
-                          <h5 class="card-title">Run Buddy</h5>
-                          <p class="card-text"><small>HTML/CSS</small></p>
+                      <div class="col-6">
+                        <div class="card position-relative shadow-sm custom-card-sm">
+                          <img src="./assets/images/run-illustrator.jpg" class="card-img custom-card-img" alt="...">
+                          <div class="card-img-overlay text-white lh-sm position-absolute custom-card-img-overlay">
+                            <h5 class="card-title fw-bold"><mark>Portfolio</mark></h5>
+                            <p class="card-text"><small><mark>HTML, CSS, Github</mark></small></p>
+                          </div>
                         </div>
-                      </div></div>
+                      </div>
                     </div>
                   </div>
               </div>
@@ -136,10 +141,10 @@
           </div>
         <div class="container">
             <div id="contact" class="row">
-              <div class="col-2">
-                <h2>Contact Me</h2>
+              <div class="col-2 custom-title-right">
+                <h2 class="fs-5">Contact Me</h2>
               </div>
-              <div class="col-10 border-start border-4 border-secondary-subtle mb-5">
+              <div class="col-9 border-start border-4 border-secondary-subtle mb-5">
                 Column
               </div>
             </div>
