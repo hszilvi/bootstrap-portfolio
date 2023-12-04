@@ -39,3 +39,25 @@ body {
 /* .custom-toggler {
     border: 2px solid white;
 } */
+
+/* hero section */
+.custom-hero {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 3.63em;
+    /* border-top: .6em solid rgb(76, 73, 73); */
+}
+/* .custom-h1-container {
+    max-width: 1440px;
+    max-width: 12em;
+} */
+.custom-h1 {
+    max-width: 12em;
+    bottom: .5em;
+    right: .5em;
+
+}
+.custom-img-container {
+    max-height: 20em;
+    /* max-width: 1440px; */
+}

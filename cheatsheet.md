@@ -13,3 +13,10 @@
 <nav class="navbar fixed-top navbar-light bg-light">
   <a class="navbar-brand" href="#">Fixed top</a>
 </nav>
+
+<!-- fonts -->
+https://getbootstrap.com/docs/5.2/utilities/text/
+
+
+
+bg-body-tertiary rounded-3
