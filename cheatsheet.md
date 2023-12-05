@@ -22,4 +22,3 @@ https://getbootstrap.com/docs/5.2/utilities/text/
 bg-body-tertiary rounded-3
 
 
-https://www.copycat.dev/blog/bootstrap-breakpoints/

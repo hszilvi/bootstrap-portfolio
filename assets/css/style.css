@@ -7,50 +7,36 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-
 }
 body {
     margin: 0 auto;
 }
+/* navbar */
 .custom-navbar-brand:hover {
-    /* opacity: 0.5; */
     color: white;
 }
 .custom-nav {
     max-width: 1440px;
     margin: 0 auto;
-
-
 }
 .custom-nav-link {
-    /* color: white; */
     font-weight: 500;
     font-size: 1.2em;
 }
-
 .custom-nav-link:hover {
     text-decoration: underline;
     opacity: .5;
 }
 .custom-toggler-btn {
-    /* background-color: white; */
     border: 2px solid var(--infoblue);
 }
-/* .custom-toggler {
-    border: 2px solid white;
-} */
 
 /* hero section */
 .custom-hero {
     max-width: 1440px;
     margin: 0 auto;
     padding-top: 3.63em;
-    /* border-top: .6em solid rgb(76, 73, 73); */
 }
-/* .custom-h1-container {
-    max-width: 1440px;
-    max-width: 12em;
-} */
 .custom-h1 {
     max-width: 12em;
     bottom: .5em;
@@ -59,17 +45,9 @@ body {
 }
 .custom-img-container {
     max-height: 20em;
-    /* max-width: 1440px; */
 }
-/* personal section
- */
-/* .custom-title-right { */
-    /* color: red; */
-    /* width: 250px; */
-    /* min-width: 250px; */
-/* } */
-/* work section */
 
+/* work section */
 .custom-card {
     max-height: 250px;
 }
@@ -84,11 +62,8 @@ body {
 .custom-card-img-overlay {
     max-width: 9em;
     max-height: 4em;
-    padding: 0;
     bottom: 0.5em;
     right: 0.5em;
-    /* border: 2px solid red; */
-    /* background-color: green; */
 }
 .custom-card-sm {
     max-height: 120px;
@@ -101,7 +76,6 @@ body {
 .custom-contact-links-container {
     margin: 0 auto;
     min-height: 5em;
-    padding-top: 2em;
 }
 
 /* footer */
