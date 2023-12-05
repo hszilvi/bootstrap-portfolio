@@ -14,7 +14,7 @@
 [Sources](#Sources)
 
 # Overview
-This is the solution of the 3rd week challange, bootstrap-portfolio. In this challange I had to make at least 10 commits to github, recreate the portfolio website from scratch using Bootstrap. 
+This is the solution of the 3rd week challange, bootstrap-portfolio. In this challange I had to recreate the portfolio website from scratch using Bootstrap. 
 
 ## Screenshots
 
