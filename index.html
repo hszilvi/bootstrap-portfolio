@@ -13,7 +13,7 @@
     <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
 </head>
 <body>
-    <!-- ====================== bootstrap navbar ============================= -->
+    <!-- ==================================== bootstrap navbar ========================================== -->
     <nav class="navbar navbar-expand-lg bg-secondary fixed-top custom-nav">
         <div class="container">
             <a class="navbar-brand bg-info ps-1 pe-4 fw-bold custom-navbar-brand" href="#">Szilvia Horvath</a>
@@ -23,7 +23,7 @@
             </button>
             <!-- desktop view navbar -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-white">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-white">
                 <li class="nav-item">
                 <a class="nav-link text-white custom-nav-link" href="#about">About me</a>
                 </li>
@@ -35,56 +35,53 @@
                 </li>
                 <li class="nav-item">
                   <!-- add link to resume link!!!!!!!!!!!!!!! -->
-                <a class="nav-link text-info custom-nav-link" href="#">Resume</a>
+                <a class="nav-link text-info custom-nav-link" href="https://docs.google.com/document/d/1icxNI8J6QmUbsXl13mDdu9kV99GQ8aFdjOx4_XMJD7I/edit" target="_blank">Resume</a>
                 </li>
-            </ul>
+              </ul>
             </div>
         </div>
     </nav>
     <!-- ================================ HERO with jumbotron section here  ============================= -->
-    <div class="pt-7 mb-4 position-relative shadow-sm custom-hero">
-      <!-- <div class="container custom-h1-container"> -->
-        <div class="overflow-hidden custom-img-container">
-          <img class="mw-100" src="./assets/images/boostrap-hero-img.jpg" alt="bootstrap-vscode">
-        </div>
-        <h1 class="fw-normal text-wrap text-decoration-underline bg-info ps-1 pe-4 mw-100 position-absolute custom-h1">This is my <br><span class="fw-bold">bootstrap portfolio</span></h1>
-
-      <!-- </div> -->
-    </div>
-<!-- ========================= main content ===================== -->
+    <section class="pt-7 mb-4 position-relative shadow-sm custom-hero">
+      <div class="overflow-hidden custom-img-container">
+        <img class="mw-100" src="./assets/images/boostrap-hero-img.jpg" alt="bootstrap-vscode">
+      </div>
+      <h1 class="fw-normal text-wrap text-decoration-underline bg-info ps-1 pe-4 mw-100 position-absolute custom-h1">This is my <br><span class="fw-bold">bootstrap portfolio</span></h1>
+    </section>
+    <!-- ========================================= main content ========================================= -->
     <div class="container">
         <!--  about me section  -->
-        <div class="container mt-5">
+        <section class="container mt-5">
             <div id="about" class="row">
-              <div class="col-2 text-right custom-title-right">
+              <div class="col-sm-12 col-md-2 col-lg-2 text-right custom-title-right">
                 <h2>About Me</h2>
               </div>
-              <div class="col-10 border-start border-4 border-secondary-subtle mb-5">
+              <div class="col-sm-12 col-md-10 col-lg-10 border-start border-4 border-secondary-subtle mb-5">
                 <!-- need to change text!!!!!!!!!!!!!!!! -->
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur reprehenderit provident asperiores. Exercitationem repudiandae itaque, ex autem vero ab deserunt, illo, minima doloremque est pariatur quis. Ab optio quas cumque.
                 Quasi, commodi distinctio totam voluptas deserunt optio quam magni amet nostrum a sint minus voluptatem nulla dolores, eveniet facere delectus? Corrupti, reiciendis doloremque laborum mollitia recusandae nostrum quaerat quae eius!</p>
               </div>
             </div>
-          </div>
+        </section>
           <!--  work section -->
-        <div class="container">
+        <section class="container">
             <!-- work all -->
             <div id="work" class="row">
                 <!-- work title -->
-              <div class="col-2 text-right custom-title-right">
+              <div class="col-sm-12 col-md-2 col-lg-2 text-right custom-title-right">
                 <h2 class="text-right">Work</h2>
               </div>
               <!-- work elements start here -->
-              <div class="col-10 border-start border-4 border-secondary-subtle mb-5 h-100">
+              <div class="col-sm-12 col-md-10 col-lg-10 border-start border-4 border-secondary-subtle mb-5 h-100">
                 <div class="container">
                     <!-- big work Change to portfolio hsz github site, find a fancy picture -->
                     <div class="row mb-3">
                       <div class="col">
-                        <a class="card position-relative shadow-sm" href="https://github.com/hszilvi/portfolio-hsz" target="_blank">
-                          <img src="./assets/images/portfolio-hsz-github.jpg" class="card-img custom-card-img" alt="portfolio github pageview">
-                          <div class="card-img-overlay text-white lh-sm position-absolute custom-card-img-overlay">
-                            <h5 class="card-title fw-bold"><mark>Portfolio</mark></h5>
-                            <p class="card-text"><small><mark>HTML, CSS, Github</mark></small></p>
+                        <a class="card position-relative shadow-sm custom-card" href="https://github.com/hszilvi/portfolio-hsz" target="_blank">
+                          <img src="./assets/images/portfolio-hsz-github.jpg" class="card-img rounded-0 custom-card-img" alt="portfolio github pageview">
+                          <div class="card-img lh-sm position-absolute ps-1 bg-info rounded-0 custom-card-img-overlay">
+                            <h5 class="card-title fw-bold">Portfolio</h5>
+                            <p class="card-text"><small>HTML, CSS, Github</small></p>
                           </div>
                         </a>
                       </div>
@@ -94,20 +91,20 @@
                         <!-- top left -->
                       <div class="col-6">
                         <a class="card position-relative shadow-sm custom-card-sm" href="https://github.com/hszilvi/bootstrap-portfolio" target="_blank">
-                            <img src="./assets/images/bootstrap-portfolio-view.jpg" class="card-img custom-card-img" alt="bootsrap portfolio pageview">
-                            <div class="card-img-overlay text-white lh-sm position-absolute custom-card-img-overlay">
-                              <h5 class="card-title fw-bold"><mark>Bootstrap</mark></h5>
-                              <p class="card-text"><small><mark>HTML, CSS</mark></small></p>
+                            <img src="./assets/images/bootstrap-portfolio-view.jpg" class="card-img rounded-0 custom-card-img" alt="bootsrap portfolio pageview">
+                            <div class="card-img lh-sm position-absolute ps-1 bg-info rounded-0 custom-card-img-overlay">
+                              <h5 class="card-title fw-bold">Bootstrap</h5>
+                              <p class="card-text"><small>HTML, CSS</small></p>
                             </div>
                           </a>
                       </div>
                       <!-- right top -->
                       <div class="col-6">
                         <a class="card position-relative shadow-sm custom-card-sm" href="https://github.com/hszilvi/homeseo-code-refactor"  target="_blank">
-                            <img src="./assets/images/horiseon-pageview.jpg" class="card-img custom-card-img" alt="...">
-                            <div class="card-img-overlay text-white lh-sm position-absolute custom-card-img-overlay">
-                              <h5 class="card-title fw-bold"><mark>Horiseon</mark></h5>
-                              <p class="card-text"><small><mark>Github</mark></small></p>
+                            <img src="./assets/images/horiseon-pageview.jpg" class="card-img rounded-0 custom-card-img" alt="...">
+                            <div class="card-img lh-sm position-absolute ps-1 bg-info rounded-0 custom-card-img-overlay">
+                              <h5 class="card-title fw-bold">Horiseon</h5>
+                              <p class="card-text"><small>Github</small></p>
                             </div>
                           </a>
                       </div>
@@ -116,43 +113,73 @@
                     <div class="row">
                         <!-- bottom left -->
                       <div class="col-6">
-                        <div class="card position-relative shadow-sm custom-card-sm">
-                            <img src="./assets/images/puzzle-illustrator.jpg" class="card-img custom-card-img" alt="...">
-                            <div class="card-img-overlay text-white lh-sm position-absolute custom-card-img-overlay">
-                              <h5 class="card-title fw-bold"><mark>Portfolio</mark></h5>
-                              <p class="card-text"><small><mark>HTML, CSS, Github</mark></small></p>
+                        <a class="card position-relative shadow-sm custom-card-sm" href="https://github.com/hszilvi" target="_blank">
+                            <img src="./assets/images/puzzle-illustrator.jpg" class="card-img rounded-0 custom-card-img" alt="...">
+                            <div class="card-img lh-sm position-absolute ps-1 bg-info rounded-0 custom-card-img-overlay">
+                              <h5 class="card-title fw-bold">Future work</h5>
+                              <p class="card-text"><small>HTML, CSS, JS</small></p>
                             </div>
-                          </div>
+                          </a>
                       </div>
                       <!-- bottom right -->
                       <div class="col-6">
-                        <div class="card position-relative shadow-sm custom-card-sm">
-                          <img src="./assets/images/run-illustrator.jpg" class="card-img custom-card-img" alt="...">
-                          <div class="card-img-overlay text-white lh-sm position-absolute custom-card-img-overlay">
-                            <h5 class="card-title fw-bold"><mark>Portfolio</mark></h5>
-                            <p class="card-text"><small><mark>HTML, CSS, Github</mark></small></p>
+                        <a class="card position-relative shadow-sm custom-card-sm" href="https://github.com/hszilvi" target="_blank">
+                          <img src="./assets/images/run-illustrator.jpg" class="card-img rounded-0 custom-card-img" alt="...">
+                          <div class="card-img lh-sm position-absolute ps-1 bg-info rounded-0 custom-card-img-overlay">
+                            <h5 class="card-title fw-bold">Future work</h5>
+                            <p class="card-text"><small>HTML, CSS</small></p>
                           </div>
-                        </div>
+                        </a>
                       </div>
                     </div>
                   </div>
               </div>
             </div>
-          </div>
-        <div class="container">
+        </section>
+        <!-- contact section -->
+        <section class="container custom-contact-container">
             <div id="contact" class="row">
-              <div class="col-2 custom-title-right">
-                <h2 class="fs-5">Contact Me</h2>
+              <div class="col-sm-12 col-md-2 col-lg-2 custom-title-right">
+                <h2>Contact Me</h2>
               </div>
-              <div class="col-9 border-start border-4 border-secondary-subtle mb-5">
-                Column
+              <div class="col-sm-12 col-md-10 col-lg-10 border-start border-4 border-secondary-subtle mb-5 custom-contact-links-container">
+                <div class="row justify-content-center custom-contact-links">
+                  <a class="col-sm-12 col-md-12 col-lg-3 text-decoration-none link-opacity-25-hover text-center link-dark custom-contact-link" href="tel:555555555">5555-55555</a>
+                  <a class="col-sm-12 col-md-12 col-lg-3 text-decoration-none link-opacity-25-hover text-center link-dark custom-contact-link" href="mailto:johndoe@example.com">szilvi@naszta.hu</a>
+                  <a class="col-sm-12 col-md-12 col-lg-3 text-decoration-none link-opacity-25-hover text-center link-dark custom-contact-link" href="https://github.com/hszilvi" target="_blank">gitHub</a>
+                  <a class="col-sm-12 col-md-12 col-lg-3 text-decoration-none link-opacity-25-hover text-center link-dark custom-contact-link" href="https://www.linkedin.com/in/horvathszilvi/" target="_blank">LinkedIn</a>
+                </div>
               </div>
             </div>
-          </div>
+        </section>
 
     </div>
 
     <!-- footer -->
+    <footer class="fs-6text pt-4 bg-secondary custom-footer">
+      <div class="container-fluid text-center text-md-left">
+        <div class="row">
+          <div class="col-md-6 mt-md-0 mt-3 text-start ps-5 mb-3">
+            <h5 class="text-uppercace text-start text-info">Hello</h5>
+            <p class="text-info">Thanks for visiting my portfolio page</p>
+          </div>
+          <div class="col-md-3 mb-md-0 mb-3">
+            <h5 class="text-info">Content</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a class="link-light text-decoration-none link-opacity-25-hover" href="#about">About Me</a>
+              </li>
+              <li>
+                <a class="link-light text-decoration-none link-opacity-25-hover" href="#work">Work</a>
+              </li>
+              <li>
+                <a class="link-light text-decoration-none link-opacity-25-hover" href="https://docs.google.com/document/d/1icxNI8J6QmUbsXl13mDdu9kV99GQ8aFdjOx4_XMJD7I/edit" target="_blank">Resume</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
 
 
 

@@ -63,11 +63,11 @@ body {
 }
 /* personal section
  */
-.custom-title-right {
-    color: red;
+/* .custom-title-right { */
+    /* color: red; */
     /* width: 250px; */
     /* min-width: 250px; */
-}
+/* } */
 /* work section */
 
 .custom-card {
@@ -82,13 +82,30 @@ body {
     object-fit: cover;
 }
 .custom-card-img-overlay {
-    max-width: 10em;
-    max-height: 5em;
-    bottom: 0;
+    max-width: 9em;
+    max-height: 4em;
+    padding: 0;
+    bottom: 0.5em;
+    right: 0.5em;
+    /* border: 2px solid red; */
+    /* background-color: green; */
 }
 .custom-card-sm {
     max-height: 120px;
 }
 .custom-card-sm:hover {
     opacity: .7;
+}
+
+/* contact section */
+.custom-contact-links-container {
+    margin: 0 auto;
+    min-height: 5em;
+    padding-top: 2em;
+}
+
+/* footer */
+.custom-footer {
+    max-width: 1440px;
+    margin: 0 auto;
 }
